@@ -1,0 +1,196 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../IMG/FundoAcolha.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.header {
+    background: #357447;
+    padding-inline: 16px;
+}
+
+.nav {
+    max-width: 1280px;
+    height: 70px;
+    margin-inline: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: block;
+    width: 100px;
+    height: 60px;
+    margin-top: 8px;
+    background-image: url("../IMG/LogoAcolhaBranco.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.nav-list {
+    display: flex;
+    gap: 32px;
+    margin-top: 20px;
+    list-style: none;
+}
+
+.nav-list a {
+    font-size: 18px;
+    color: #fff;
+    padding-block: 16px;
+}
+
+.hero {
+    height: calc(100vh - 70px);
+    background: center / cover no-repeat url("./bg.jpg");
+}
+
+.navegação {
+    display: none;
+    border: none;
+    background: none;
+    border-top: 3px solid #fff;
+    cursor: pointer;
+}
+
+.navegação::after,
+.navegação::before {
+    content: " ";
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: #fff;
+    margin-top: 5px;
+    position: relative;
+    transition: 0.3s;
+}
+
+/* Imagem dentro do menu - visível só no mobile */
+.nav-list .imagem-menu {
+    width: 150px;
+    margin-top: 20px;
+    opacity: 0;
+    transform: translateY(-15px);
+    height: 0;
+    background-image: url("../IMG/CivitasTech.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    overflow: hidden;
+    transition: opacity 0.5s ease, transform 0.5s ease, height 0.3s ease;
+    display: block;
+}
+
+/* Ativa animação no menu aberto */
+.nav.active .nav-list .imagem-menu {
+    opacity: 1;
+    transform: translateY(0);
+    height: 150px; /* ou a altura real da imagem */
+}
+
+/* Esconde completamente no modo desktop */
+@media (min-width: 751px) {
+    .nav-list .imagem-menu {
+        display: none !important;
+    }
+}
+
+/* Responsivo */
+@media (max-width: 750px) {
+    .navegação {
+        display: block;
+        z-index: 1100; /* botão de menu na frente do formulário */
+        position: fixed; /* para o botão fixar no topo */
+        top: 26px;
+        right: 16px;
+    }
+
+    .nav-list {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: #357447;
+        clip-path: circle(100px at 90% -15%);
+        transition: 1s ease-out;
+
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 0;
+
+        pointer-events: none;
+
+        z-index: 1000; /* Menu na frente do formulário */
+    }
+
+    .nav-list a {
+        font-size: 24px;
+        opacity: 0;
+    }
+
+    .nav-list li:nth-child(1) a {
+        transition: 0.5s 0.2s;
+    }
+
+    .nav-list li:nth-child(2) a {
+        transition: 0.5s 0.4s;
+    }
+
+    .nav-list li:nth-child(3) a {
+        transition: 0.5s 0.6s;
+    }
+
+    /* Ativa menu e links */
+    .nav.active .nav-list {
+        clip-path: circle(1500px at 90% -15%);
+        pointer-events: all;
+    }
+
+    .nav.active .nav-list a {
+        opacity: 1;
+    }
+
+    .nav.active .navegação {
+        border-top-color: transparent;
+    }
+
+    .nav.active .navegação::before {
+        transform: rotate(135deg);
+    }
+
+    .nav.active .navegação::after {
+        transform: rotate(-135deg);
+        top: -7px;
+    }
+
+    /* <<< ADICIONADO para o formulário ficar atrás do menu >>> */
+    .container-center {
+        position: relative;
+        z-index: 500; /* atrás do menu */
+    }
+}
+  
