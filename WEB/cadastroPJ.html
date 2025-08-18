@@ -27,7 +27,9 @@
         </nav>
     </header>
 
-    <h1><span style="margin-top: 2%; margin-bottom: 10px; margin: 20px;" class="container-center d-flex justify-content-center align-items-center badge text-bg-success">Tela de Cadastro - Pessoa Física</span></h1>
+    <!-- CORPO DO SITE -->
+
+    <h1><span style="margin-top: 2%; margin-bottom: 10px; margin: 20px;" class="container-center d-flex justify-content-center align-items-center badge text-bg-success">Tela de Cadastro - Pessoa Juridica</span></h1>
 
     <div class="container-center d-flex justify-content-center align-items-center"
         style="margin-top: 2%; margin-bottom: 5%;">
@@ -56,9 +58,9 @@
             </div>
 
             <div class="mb-3">
-                <label for="basic-url" class="form-label">Informações</label>
+                <label for="basic-url" class="form-label">Informações da Empresa</label>
                 <div class="input-group">
-                    <span class="input-group-text" id="basic-addon3">CPF</span>
+                    <span class="input-group-text" id="basic-addon3">CNPJ</span>
                     <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4">
                 </div>
             </div>
@@ -69,13 +71,27 @@
             </div>
 
             <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Nacionalidade" aria-label="Username">
-                <span class="input-group-text">Data de Nascimento</span>
-                <input type="date" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4">
+                <input type="text" class="form-control" placeholder="Nome do Representante" aria-label="Username">
+                <span class="input-group-text">|</span>
+                <input type="text" class="form-control" placeholder="Cargo" aria-label="Server">
             </div>
 
+            <div class="input-group mb-3">
+                <span class="input-group-text">Área de Atuação</span>
+                <textarea class="form-control" aria-label="With textarea"></textarea>
+            </div>
+
+            <div class="input-group">
+                <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                        style="height: 100px"></textarea>
+                    <label for="floatingTextarea2">Mensagem</label>
+                </div>
+            </div>
         </div>
     </div>
+
+    <!-- FOOTER -->
 
     <footer>
         <div id="footer_content">
@@ -107,6 +123,7 @@
                         </svg> </a>
                 </div>
             </div>
+
             <ul class="footer-list">
                 <li>
                     <h3>Conteúdos</h3>
