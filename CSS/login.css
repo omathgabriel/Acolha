@@ -1,4 +1,224 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
+/* ===== BREUL GROTESKA (versão padrão) ===== */
+
+@font-face {
+    font-family: 'Breul Grotesk';
+    src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteska-thin.otf);
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Breul Grotesk';
+    src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteska-thinitalic.otf);
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'Breul Grotesk';
+    src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteska-extralight.otf);
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Breul Grotesk';
+    src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteska-extltita.otf);
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'Breul Grotesk';
+    src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteska-light.otf);
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Breul Grotesk';
+    src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteska-lightitalic.otf);
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'Breul Grotesk';
+    src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteska-regular.otf);
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Breul Grotesk';
+    src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteska-italic.otf);
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'Breul Grotesk';
+    src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteska-semilight.otf);
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Breul Grotesk';
+    src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteska-semilightitalic.otf);
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'Breul Grotesk';
+    src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteska-bold.otf);
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Breul Grotesk';
+    src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteska-bolditalic.otf);
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'Breul Grotesk';
+    src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteska-heavy.otf);
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Breul Grotesk';
+    src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteska-heavyitalic.otf);
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'Breul Grotesk';
+    src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteska-black.otf);
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Breul Grotesk';
+    src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteska-blackitalic.otf);
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+  /* ===== BREUL GROTESK KB (mesma família visual) ===== */
+  
+  @font-face {
+    font-family: 'Breul Grotesk';
+    src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteskb-thin.otf);
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Breul Grotesk';
+    src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteskb-thinitalic.otf);
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'Breul Grotesk';
+    src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteskb-extralight.otf);
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Breul Grotesk';
+    src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteskb-extltita.otf);
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'Breul Grotesk';
+    src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteskb-light.otf);
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Breul Grotesk';
+    src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteskb-lightitalic.otf);
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'Breul Grotesk';
+    src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteskb-regular.otf);
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Breul Grotesk';
+    src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteskb-bold.otf);
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Breul Grotesk';
+    src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteskb-bolditalic.otf);
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'Breul Grotesk';
+    src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteskb-heavy.otf);
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Breul Grotesk';
+    src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteskb-heavyitalic.otf);
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'Breul Grotesk';
+    src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteskb-black.otf);
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Breul Grotesk';
+    src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteskb-blackitalic.otf);
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+@font-face {
+    font-family: 'Helvetica World';
+    src: url(../FON/helvetica-world-maisfontes.8fec/helvetica-world.ttf);
+}
+@font-face {
+    font-family: 'Lemon Tuesday';
+    src: url(../FON/lemon_tuesday/LemonTuesday.otf);
+}
+@font-face {
+    font-family: 'Questrial';
+    src: url(../FON/Questrial/Questrial-Regular.ttf);
+}
 
 html,
 body {
@@ -8,7 +228,7 @@ body {
 }
 
 body {
-    background-image: url(../IMG/FundoAcolha.png);
+    background-image: url(../IMG/FundoCadastro.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
