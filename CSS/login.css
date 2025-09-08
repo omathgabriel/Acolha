@@ -7,214 +7,216 @@
     src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteska-thin.otf);
     font-weight: 100;
     font-style: normal;
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: 'Breul Grotesk';
     src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteska-thinitalic.otf);
     font-weight: 100;
     font-style: italic;
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: 'Breul Grotesk';
     src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteska-extralight.otf);
     font-weight: 200;
     font-style: normal;
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: 'Breul Grotesk';
     src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteska-extltita.otf);
     font-weight: 200;
     font-style: italic;
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: 'Breul Grotesk';
     src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteska-light.otf);
     font-weight: 300;
     font-style: normal;
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: 'Breul Grotesk';
     src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteska-lightitalic.otf);
     font-weight: 300;
     font-style: italic;
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: 'Breul Grotesk';
     src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteska-regular.otf);
     font-weight: 400;
     font-style: normal;
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: 'Breul Grotesk';
     src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteska-italic.otf);
     font-weight: 400;
     font-style: italic;
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: 'Breul Grotesk';
     src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteska-semilight.otf);
     font-weight: 500;
     font-style: normal;
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: 'Breul Grotesk';
     src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteska-semilightitalic.otf);
     font-weight: 500;
     font-style: italic;
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: 'Breul Grotesk';
     src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteska-bold.otf);
     font-weight: 700;
     font-style: normal;
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: 'Breul Grotesk';
     src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteska-bolditalic.otf);
     font-weight: 700;
     font-style: italic;
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: 'Breul Grotesk';
     src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteska-heavy.otf);
     font-weight: 800;
     font-style: normal;
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: 'Breul Grotesk';
     src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteska-heavyitalic.otf);
     font-weight: 800;
     font-style: italic;
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: 'Breul Grotesk';
     src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteska-black.otf);
     font-weight: 900;
     font-style: normal;
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: 'Breul Grotesk';
     src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteska-blackitalic.otf);
     font-weight: 900;
     font-style: italic;
-  }
-  
-  /* ===== BREUL GROTESK KB (mesma família visual) ===== */
-  
-  @font-face {
+}
+
+/* ===== BREUL GROTESK KB (mesma família visual) ===== */
+
+@font-face {
     font-family: 'Breul Grotesk';
     src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteskb-thin.otf);
     font-weight: 100;
     font-style: normal;
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: 'Breul Grotesk';
     src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteskb-thinitalic.otf);
     font-weight: 100;
     font-style: italic;
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: 'Breul Grotesk';
     src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteskb-extralight.otf);
     font-weight: 200;
     font-style: normal;
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: 'Breul Grotesk';
     src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteskb-extltita.otf);
     font-weight: 200;
     font-style: italic;
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: 'Breul Grotesk';
     src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteskb-light.otf);
     font-weight: 300;
     font-style: normal;
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: 'Breul Grotesk';
     src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteskb-lightitalic.otf);
     font-weight: 300;
     font-style: italic;
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: 'Breul Grotesk';
     src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteskb-regular.otf);
     font-weight: 400;
     font-style: normal;
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: 'Breul Grotesk';
     src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteskb-bold.otf);
     font-weight: 700;
     font-style: normal;
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: 'Breul Grotesk';
     src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteskb-bolditalic.otf);
     font-weight: 700;
     font-style: italic;
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: 'Breul Grotesk';
     src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteskb-heavy.otf);
     font-weight: 800;
     font-style: normal;
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: 'Breul Grotesk';
     src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteskb-heavyitalic.otf);
     font-weight: 800;
     font-style: italic;
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: 'Breul Grotesk';
     src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteskb-black.otf);
     font-weight: 900;
     font-style: normal;
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: 'Breul Grotesk';
     src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteskb-blackitalic.otf);
     font-weight: 900;
     font-style: italic;
-  }
-  
+}
+
 @font-face {
     font-family: 'Helvetica World';
     src: url(../FON/helvetica-world-maisfontes.8fec/helvetica-world.ttf);
 }
+
 @font-face {
     font-family: 'Lemon Tuesday';
     src: url(../FON/lemon_tuesday/LemonTuesday.otf);
 }
+
 @font-face {
     font-family: 'Questrial';
     src: url(../FON/Questrial/Questrial-Regular.ttf);
@@ -279,7 +281,7 @@ footer {
     display: flex;
     gap: 2rem;
     margin-top: 1.5rem;
-} 
+}
 
 #footer_social_media .footer-link {
     display: flex;
@@ -293,7 +295,7 @@ footer {
 }
 
 #footer_social_media .footer-link svg {
-    width: 15px;    
+    width: 15px;
 }
 
 #footer_social_media .footer-link:hover {
@@ -470,8 +472,11 @@ a {
 .nav.active .nav-list .imagem-menu {
     opacity: 1;
     transform: translateY(0);
-    height: 150px; /* ou a altura real da imagem */
+    height: 150px;
+    /* ou a altura real da imagem */
 }
+
+
 
 /* Esconde completamente no modo desktop */
 @media (min-width: 751px) {
@@ -484,8 +489,10 @@ a {
 @media (max-width: 750px) {
     .navegação {
         display: block;
-        z-index: 1100; /* botão de menu na frente do formulário */
-        position: fixed; /* para o botão fixar no topo */
+        z-index: 1100;
+        /* botão de menu na frente do formulário */
+        position: fixed;
+        /* para o botão fixar no topo */
         top: 26px;
         right: 16px;
     }
@@ -507,7 +514,8 @@ a {
 
         pointer-events: none;
 
-        z-index: 1000; /* Menu na frente do formulário */
+        z-index: 1000;
+        /* Menu na frente do formulário */
     }
 
     .nav-list a {
@@ -553,10 +561,11 @@ a {
     /* <<< ADICIONADO para o formulário ficar atrás do menu >>> */
     .container-center {
         position: relative;
-        z-index: 500; /* atrás do menu */
+        z-index: 500;
+        /* atrás do menu */
     }
 }
-  
+
 @media screen and (max-width: 768px) {
     #footer_content {
         grid-template-columns: repeat(2, 1fr);

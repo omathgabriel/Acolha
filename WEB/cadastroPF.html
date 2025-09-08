@@ -11,6 +11,79 @@
     <title>Acolha - Login</title>
 </head>
 
+<style>
+    body,
+    html {
+        height: 100%;
+    }
+
+    body {
+        background-image: url('../IMG/FundoCadastro.jpeg');
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        min-height: 100vh;
+    }
+
+    /* Centraliza o conteúdo verticalmente e impede quebra do layout */
+    .container-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 80vh;
+        padding: 20px;
+    }
+
+    /* Corrige largura da .card no mobile */
+    .card {
+        width: 100%;
+        max-width: 700px;
+        background-color: rgba(255, 255, 255, 0.9);
+        /* Leve transparência */
+        border-radius: 8px;
+        backdrop-filter: blur(3px);
+        /* Efeito bonito se quiser */
+    }
+
+    /* Garante que o botão de navegação não sobreponha o conteúdo */
+    .navegação {
+        z-index: 2000 !important;
+    }
+
+    /* Força o menu a aparecer acima, mas não quebrar o conteúdo */
+    .nav-list {
+        z-index: 1500;
+    }
+
+    .titulo-principal {
+        margin: 20px;
+        /* margem padrão */
+        font-family: 'Lemon Tuesday', cursive;
+        text-shadow: 2px 2px 0 #ffffff, -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff;
+        color: #357447;
+        font-weight: bold;
+    }
+
+    /* Coloca o formulário abaixo do menu mobile */
+    @media (max-width: 750px) {
+        .container-center {
+            margin-top: 100px;
+            z-index: 500;
+        }
+
+        .card {
+            width: 90%;
+        }
+
+        .titulo-principal {
+            margin-bottom: -25px !important;
+
+        }
+
+    }
+</style>
+
 <body>
     <!-- BARRA DE NAVEGAÇÃO -->
     <header class="header">
@@ -26,12 +99,20 @@
         </nav>
     </header>
 
-    <center><h1 style="margin: 20px; font-family: 'Lemon Tuesday'; color: #357447;">Tela de
-        Cadastro - Pessoa Física</h1></center>
-
+            <h1 class="titulo-principal" style="
+          margin: 40px 10px 20px;
+          font-family: 'Lemon Tuesday';
+          text-shadow: 2px 2px 0 #ffffff, -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff;
+          color: #357447;
+          font-weight: bold;
+          font-size: 2.5rem;
+          text-align:center;
+        ">
+            Tela de Cadastro - Pessoa Física
+        </h1>
     <div class="container-center d-flex justify-content-center align-items-center"
-        style="margin-top: 2%; margin-bottom: 5%;">
-        <div class="card" style="width: 70%; padding: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+        style="margin-top: 0px; margin-bottom: 1px;">
+        <div class="card" style="width: 80%; padding: 35px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
             <div class="input-group mb-3">
                 <input type="text" class="form-control" placeholder="Nome" aria-label="Username"
                     aria-describedby="basic-addon1">
@@ -74,10 +155,10 @@
                 <input type="date" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4">
             </div>
 
-            <div class="input-group">
-                <button style="margin-bottom: 0%" type="submit" id="btn" class="btn btn-success">Cadastrar</button>
-
+            <div class="d-flex justify-content-end mt-3">
+                <button type="submit" id="btn" class="btn btn-success">Cadastrar</button>
             </div>
+
 
         </div>
     </div>

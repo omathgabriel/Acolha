@@ -117,7 +117,7 @@
   
   @font-face {
     font-family: 'Breul Grotesk';
-    src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteskb-thin.otf);
+    src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteskb-semilight.otf);
     font-weight: 100;
     font-style: normal;
   }
@@ -207,7 +207,7 @@
   }
   
 @font-face {
-    font-family: 'Helvetica World';
+    font-family: 'Titulo';
     src: url(../FON/helvetica-world-maisfontes.8fec/helvetica-world.ttf);
 }
 @font-face {
@@ -215,7 +215,7 @@
     src: url(../FON/lemon_tuesday/LemonTuesday.otf);
 }
 @font-face {
-    font-family: 'Questrial';
+    font-family: 'Corpo';
     src: url(../FON/Questrial/Questrial-Regular.ttf);
 }
 
@@ -233,6 +233,7 @@ body {
     background-size: cover;
     min-height: 100vh;
 }
+
 
 .card {
     display: flex !important;
