@@ -29,12 +29,13 @@
     <div class="container-center d-flex justify-content-center align-items-center"
         style="margin-top: 5%; margin-bottom: 5%;">
         <div class="card" style="width: 18rem;">
-            <form>
+            <form id="formLogin">
                 <div style="max-width: 90%; margin: auto; padding-top: 20px;">
                     <img style="width: 75%; display: block; margin: 0 auto;" src="../IMG/width_500.webp" alt="">
-                    <input style="margin-bottom: 10px;" class="form-control" type="text" placeholder="Usuário"
-                        aria-label="Usuário">
-                    <input type="password" class="form-control" placeholder="Senha">
+
+                    <input style="margin-bottom: 10px;" id="email" class="form-control" type="text" placeholder="Email" aria-label="Usuário">
+
+                    <input type="password" id="senha" class="form-control" placeholder="Senha">
                 </div>
                 <div class="text-center">
                     <div class="text-center">
@@ -116,7 +117,7 @@
                 </p>
 
                 <div id="input_group">
-                    <input type="email" id="email">
+                    <input type="email" id="email enviar">
                     <button>
                         ➤
                     </button>
@@ -136,6 +137,7 @@
         crossorigin="anonymous"></script>
     <script src="../JS/barraDeNavegação.js"></script>
     <script src="../JS/menuSelecao.js"></script>
+    <script src="../JS/login.js"></script>
 </body>
 
 </html>

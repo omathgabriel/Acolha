@@ -114,45 +114,39 @@
         style="margin-top: 0px; margin-bottom: 1px;">
         <div class="card" style="width: 80%; padding: 35px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
             <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Nome" aria-label="Username"
+                <input type="text" class="form-control" id="nome" placeholder="Nome" aria-label="Username"
                     aria-describedby="basic-addon1">
             </div>
 
             <div class="input-group mb-3">
                 <input id="email" type="text" class="form-control" placeholder="Email" aria-label="Recipient’s username"
                     aria-describedby="basic-addon2">
-                <span class="input-group-text" id="basic-addon2"><select class="form-select"
-                        aria-label="Default select example">
-                        <option selected>Dominio</option>
-                        <option value="1">@gmail.com</option>
-                        <option value="2">@outlook.com</option>
-                        <option value="3">@yahoo.ocom</option>
-                    </select></span>
+                
 
             </div>
 
             <div class="input-group mb-3">
                 <span class="input-group-text" id="basic-addon3">Senha</span>
-                <input type="password" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4">
+                <input type="password" class="form-control senha" id="basic-url" aria-describedby="basic-addon3 basic-addon4">
             </div>
 
             <div class="mb-3">
                 <label for="basic-url" class="form-label">Informações</label>
                 <div class="input-group">
                     <span class="input-group-text" id="basic-addon3">CPF</span>
-                    <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4">
+                    <input type="text" class="form-control cpf" id="basic-url cpf" aria-describedby="basic-addon3 basic-addon4">
                 </div>
             </div>
 
             <div class="input-group mb-3">
                 <span class="input-group-text">Telefone</span>
-                <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                <input type="text" class="form-control telefone" aria-label="Amount (to the nearest dollar)">
             </div>
 
             <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Nacionalidade" aria-label="Username">
+                <input type="text" class="form-control nacionalidade" placeholder="Nacionalidade" aria-label="Username">
                 <span class="input-group-text">Data de Nascimento</span>
-                <input type="date" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4">
+                <input type="date" class="form-control dataNasc" id="basic-url" aria-describedby="basic-addon3 basic-addon4">
             </div>
 
             <div class="d-flex justify-content-end mt-3">
@@ -231,7 +225,7 @@
                 </p>
 
                 <div id="input_group">
-                    <input type="email" id="email">
+                    <input type="email" id="email input"/>
                     <button>
                         ➤
                     </button>
@@ -249,7 +243,7 @@
         integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
         crossorigin="anonymous"></script>
     <script src="../JS/barraDeNavegação.js"></script>
-    <script src="../JS/testes.js"></script>
+    <script src="../JS/cadastroPF.js"></script>
 </body>
 
 </html>
