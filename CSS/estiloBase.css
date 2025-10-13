@@ -6,214 +6,216 @@
     src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteska-thin.otf);
     font-weight: 100;
     font-style: normal;
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: 'Breul Grotesk';
     src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteska-thinitalic.otf);
     font-weight: 100;
     font-style: italic;
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: 'Breul Grotesk';
     src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteska-extralight.otf);
     font-weight: 200;
     font-style: normal;
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: 'Breul Grotesk';
     src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteska-extltita.otf);
     font-weight: 200;
     font-style: italic;
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: 'Breul Grotesk';
     src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteska-light.otf);
     font-weight: 300;
     font-style: normal;
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: 'Breul Grotesk';
     src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteska-lightitalic.otf);
     font-weight: 300;
     font-style: italic;
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: 'Breul Grotesk';
     src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteska-regular.otf);
     font-weight: 400;
     font-style: normal;
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: 'Breul Grotesk';
     src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteska-italic.otf);
     font-weight: 400;
     font-style: italic;
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: 'Breul Grotesk';
     src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteska-semilight.otf);
     font-weight: 500;
     font-style: normal;
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: 'Breul Grotesk';
     src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteska-semilightitalic.otf);
     font-weight: 500;
     font-style: italic;
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: 'Breul Grotesk';
     src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteska-bold.otf);
     font-weight: 700;
     font-style: normal;
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: 'Breul Grotesk';
     src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteska-bolditalic.otf);
     font-weight: 700;
     font-style: italic;
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: 'Breul Grotesk';
     src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteska-heavy.otf);
     font-weight: 800;
     font-style: normal;
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: 'Breul Grotesk';
     src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteska-heavyitalic.otf);
     font-weight: 800;
     font-style: italic;
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: 'Breul Grotesk';
     src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteska-black.otf);
     font-weight: 900;
     font-style: normal;
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: 'Breul Grotesk';
     src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteska-blackitalic.otf);
     font-weight: 900;
     font-style: italic;
-  }
-  
-  /* ===== BREUL GROTESK KB (mesma família visual) ===== */
-  
-  @font-face {
+}
+
+/* ===== BREUL GROTESK KB (mesma família visual) ===== */
+
+@font-face {
     font-family: 'Breul Grotesk';
     src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteskb-semilight.otf);
     font-weight: 100;
     font-style: normal;
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: 'Breul Grotesk';
     src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteskb-thinitalic.otf);
     font-weight: 100;
     font-style: italic;
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: 'Breul Grotesk';
     src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteskb-extralight.otf);
     font-weight: 200;
     font-style: normal;
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: 'Breul Grotesk';
     src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteskb-extltita.otf);
     font-weight: 200;
     font-style: italic;
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: 'Breul Grotesk';
     src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteskb-light.otf);
     font-weight: 300;
     font-style: normal;
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: 'Breul Grotesk';
     src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteskb-lightitalic.otf);
     font-weight: 300;
     font-style: italic;
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: 'Breul Grotesk';
     src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteskb-regular.otf);
     font-weight: 400;
     font-style: normal;
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: 'Breul Grotesk';
     src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteskb-bold.otf);
     font-weight: 700;
     font-style: normal;
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: 'Breul Grotesk';
     src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteskb-bolditalic.otf);
     font-weight: 700;
     font-style: italic;
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: 'Breul Grotesk';
     src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteskb-heavy.otf);
     font-weight: 800;
     font-style: normal;
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: 'Breul Grotesk';
     src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteskb-heavyitalic.otf);
     font-weight: 800;
     font-style: italic;
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: 'Breul Grotesk';
     src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteskb-black.otf);
     font-weight: 900;
     font-style: normal;
-  }
-  
-  @font-face {
+}
+
+@font-face {
     font-family: 'Breul Grotesk';
     src: url(../FON/BreulGrotesk/Fontspring-DEMO-breulgroteskb-blackitalic.otf);
     font-weight: 900;
     font-style: italic;
-  }
-  
+}
+
 @font-face {
     font-family: 'Titulo';
     src: url(../FON/helvetica-world-maisfontes.8fec/helvetica-world.ttf);
 }
+
 @font-face {
     font-family: 'Lemon Tuesday';
     src: url(../FON/lemon_tuesday/LemonTuesday.otf);
 }
+
 @font-face {
     font-family: 'Corpo';
     src: url(../FON/Questrial/Questrial-Regular.ttf);
@@ -228,7 +230,7 @@ body {
 
 body {
     background-image: url(../IMG/FundoAcolha.png);
-    background-repeat:round;
+    background-repeat: round;
     background-position: center;
     background-size: cover;
     min-height: 100vh;
@@ -263,9 +265,11 @@ body {
     display: flex !important;
     align-items: center !important;
 }
-.card-icon i{
-  font-size: 3em;
+
+.card-icon i {
+    font-size: 3em;
 }
+
 .card-icon img {
     width: 250px !important;
     height: 200px !important;
@@ -273,6 +277,7 @@ body {
     border-radius: 5px !important;
     display: block !important;
 }
+
 .card-body {
     flex: 1 !important;
     padding-right: 2em !important;
@@ -280,8 +285,9 @@ body {
     flex-direction: column !important;
     justify-content: center !important;
 }
+
 .card:hover {
-  background-position: left;
+    background-position: left;
 }
 
 :root {
@@ -328,7 +334,7 @@ footer {
     display: flex;
     gap: 2rem;
     margin-top: 1.5rem;
-} 
+}
 
 #footer_social_media .footer-link {
     display: flex;
@@ -342,7 +348,7 @@ footer {
 }
 
 #footer_social_media .footer-link svg {
-    width: 15px;    
+    width: 15px;
 }
 
 #footer_social_media .footer-link:hover {
@@ -520,42 +526,84 @@ a {
 .nav.active .nav-list .imagem-menu {
     opacity: 1;
     transform: translateY(0);
-    height: 150px; /* ou a altura real da imagem */
+    height: 150px;
+    /* ou a altura real da imagem */
 }
 
 .profile-card {
-    max-width: 350px;
-    border-radius: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    /* coluna por padrão */
+    background: linear-gradient(145deg, #357447, #194726);
+    border-radius: 2rem;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s, box-shadow 0.3s;
+    max-width: 300px;
+    padding: 2rem 1.5rem;
+    color: #fff;
+}
+
+.profile-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.6);
 }
 
 .profile-img {
     width: 120px;
     height: 120px;
-    align-items: center;
-    justify-content: center;
+    margin: 0 auto 1rem auto;
+    border-radius: 50%;
+    border: 3px solid #F4C856;
     object-fit: cover;
-    border: 4px solid #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.profile-card:hover .profile-img {
+    transform: scale(1.1);
+}
+
+.profile-card .card-title {
+    font-family: 'Titulo', sans-serif;
+    font-size: 1.25rem;
+    margin-bottom: 0.25rem;
+}
+
+.profile-card .card-text {
+    font-family: 'Corpo', sans-serif;
+    font-size: 0.9rem;
+    color: #e6e6e6;
+    margin-bottom: 1rem;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 0.75rem;
 }
 
 .social-icons a {
-    display: inline-flex;
+    width: 35px;
+    height: 35px;
+    background-color: #F4C856;
+    color: #194726;
+    display: flex;
     align-items: center;
     justify-content: center;
-    width: 40px;
-    height: 40px;
     border-radius: 50%;
-    background-color: #F4C856;
-    color: #6c757d;
-    text-decoration: none;
-    margin: 0 5px;
     transition: all 0.3s ease;
 }
 
 .social-icons a:hover {
     background-color: #CBB04F;
-    color: #ffffff;
+    color: #fff;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    .profile-card {
+        max-width: 90%;
+        padding: 1.5rem 1rem;
+        margin: 0 auto 2rem auto;
+    }
 }
 
 /* Esconde completamente no modo desktop */
@@ -648,7 +696,8 @@ a {
     }
 }
 
-.card, .card * {
+.card,
+.card * {
     color: #fff !important;
 }
 
@@ -658,11 +707,12 @@ a {
     transition: background 0.3s, color 0.3s, border 0.3s !important;
 }
 
-.card .btn:hover, 
+.card .btn:hover,
 .card .btn:focus {
     background-color: #fff !important;
     color: #000 !important;
-    border: 2px solid #fff !important; /* Borda preta no hover */
+    border: 2px solid #fff !important;
+    /* Borda preta no hover */
 }
 
 @media (max-width: 768px) {
@@ -672,28 +722,91 @@ a {
         width: 95% !important;
         padding: 1em 0 !important;
     }
+
     .card-icon {
         margin: 0 auto 1em auto !important;
         justify-content: center !important;
     }
+
     .card-icon img {
         width: 100% !important;
         max-width: 300px !important;
         height: auto !important;
     }
+
     .card-body {
         padding: 1em !important;
     }
+
     .container-card {
         min-height: 0 !important;
     }
 }
 
 .container-card {
-    min-height: 50vh; /* ou ajuste para 60vh, 50vh, etc */
+    min-height: 50vh;
+    /* ou ajuste para 60vh, 50vh, etc */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-  
+/* ===== ROW DE CARDS ROLÁVEL ===== */
+.row-cards {
+    display: flex;
+    flex-wrap: nowrap;
+    /* mantém os cards em linha */
+    gap: 2rem;
+    /* espaço entre os cards */
+    overflow-x: auto;
+    /* barra de rolagem horizontal */
+    padding: 2rem 1rem;
+    scroll-behavior: smooth;
+    /* rolagem suave */
+    margin: 0 auto;
+    /* centraliza a barra, mas não os cards */
+}
+
+.row-cards .card {
+    flex: 0 0 auto;
+    /* impede que os cards encolham ou se expandam */
+}
+
+
+.row-cards::-webkit-scrollbar {
+    height: 8px;
+}
+
+.row-cards::-webkit-scrollbar-thumb {
+
+    background-color: #357447;
+    border-radius: 4px;
+}
+
+.row-cards::-webkit-scrollbar-track {
+    background-color: #e6e6e6;
+    margin: 10cm;
+    border-radius: 4px;
+}
+
+
+.row-cards .profile-card {
+    flex: 0 0 auto;       /* mantém os cards sem encolher ou expandir */
+    width: 300px;         /* largura fixa de cada card */
+    height: 320px !important; /* altura maior dos cards */
+}
+
+/* Responsivo: mobile, empilha em coluna */
+@media (max-width: 768px) {
+    .row-cards {
+        flex-wrap: wrap;
+        overflow-x: visible;
+        justify-content: center;
+    }
+
+    .row-cards .profile-card {
+        flex: 1 1 90%;
+        max-width: 90%;
+        margin-bottom: 1.5rem;
+    }
+}
