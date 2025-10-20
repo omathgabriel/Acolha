@@ -237,6 +237,7 @@ body {
 }
 
 
+
 .card {
     display: flex !important;
     flex-direction: row !important;
@@ -407,7 +408,7 @@ footer {
 }
 
 #input_group button {
-    background-color: #F4C856;
+    background-color: #ffb700;
     border: none;
     color: var(--color-neutral-40);
     padding: 0px 1.25rem;
@@ -552,7 +553,7 @@ a {
     height: 120px;
     margin: 0 auto 1rem auto;
     border-radius: 50%;
-    border: 3px solid #F4C856;
+    border: 3px solid #ffb700;
     object-fit: cover;
     transition: transform 0.3s;
 }
@@ -580,11 +581,12 @@ a {
     gap: 0.75rem;
 }
 
+/* troca: cor dos ícones para branco e garante que SVGs herdem a cor */
 .social-icons a {
     width: 35px;
     height: 35px;
-    background-color: #F4C856;
-    color: #194726;
+    background-color: #ffb700;
+    color: #ffffff; /* alterado para branco */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -592,9 +594,17 @@ a {
     transition: all 0.3s ease;
 }
 
+/* garante que SVG ou <i> herdem a cor branca */
+.social-icons a i,
+.social-icons a svg {
+    color: #ffffff;
+    fill: currentColor;
+    font-size: 1.1rem;
+}
+
 .social-icons a:hover {
-    background-color: #CBB04F;
-    color: #fff;
+    background-color: #c48d00;
+    color: #ffffff;
 }
 
 /* Responsivo */
