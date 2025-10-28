@@ -882,3 +882,26 @@ a {
         margin-top: 1em; /* Garante que haja um pequeno espaço entre a imagem e o texto */
     }
 }
+
+/* Forçar cards alinhados à esquerda */
+.row-cards {
+    margin: 0 !important;                 /* remove margin:auto */
+    justify-content: flex-start !important; /* alinha items ao início (esq) */
+    align-items: flex-start !important;
+    padding-left: 0.5rem !important;      /* ajuste opcional de padding */
+}
+
+/* Se o container pai usa utilitários bootstrap que centralizam, sobrescreve */
+.container-card,
+.container-center,
+.row-cards-container {
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+}
+
+/* Garante que cards não tenham margin:auto que centralize individualmente */
+.row-cards .profile-card,
+.row-cards .card {
+    margin: 0 !important;
+}
